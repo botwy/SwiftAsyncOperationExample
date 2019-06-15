@@ -12,6 +12,8 @@
 		847BE8D822B59CD7001B05DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 847BE8D622B59CD7001B05DE /* Main.storyboard */; };
 		847BE8DA22B59CF5001B05DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 847BE8D922B59CF5001B05DE /* Assets.xcassets */; };
 		847BE8DD22B59CF5001B05DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 847BE8DB22B59CF5001B05DE /* LaunchScreen.storyboard */; };
+		847BE8E522B59D1C001B05DE /* SumOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847BE8E422B59D1C001B05DE /* SumOperation.swift */; };
+		847BE8E722B59D61001B05DE /* AsyncUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847BE8E622B59D61001B05DE /* AsyncUtils.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		847BE8D922B59CF5001B05DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		847BE8DC22B59CF5001B05DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		847BE8DE22B59CF5001B05DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		847BE8E422B59D1C001B05DE /* SumOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SumOperation.swift; sourceTree = "<group>"; };
+		847BE8E622B59D61001B05DE /* AsyncUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncUtils.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				847BE8D922B59CF5001B05DE /* Assets.xcassets */,
 				847BE8DB22B59CF5001B05DE /* LaunchScreen.storyboard */,
 				847BE8DE22B59CF5001B05DE /* Info.plist */,
+				847BE8E422B59D1C001B05DE /* SumOperation.swift */,
+				847BE8E622B59D61001B05DE /* AsyncUtils.swift */,
 			);
 			path = AsyncOperationExample;
 			sourceTree = "<group>";
@@ -137,6 +143,8 @@
 			files = (
 				847BE8D522B59CD7001B05DE /* ViewController.swift in Sources */,
 				847BE8D322B59CD7001B05DE /* AppDelegate.swift in Sources */,
+				847BE8E722B59D61001B05DE /* AsyncUtils.swift in Sources */,
+				847BE8E522B59D1C001B05DE /* SumOperation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
